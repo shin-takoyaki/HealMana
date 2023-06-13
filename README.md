@@ -1,1 +1,2 @@
-# HealMana
+# ヘルマネ
+PHP自作
