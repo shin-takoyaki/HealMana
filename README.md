@@ -21,4 +21,4 @@ XAMPP/PHP
 
 テーブル
 
-→phpMyAdminにDB.sqlをインポートしていただければお使い頂けます。
+→phpMyAdminに.sqlをインポートしていただければお使い頂けます。
