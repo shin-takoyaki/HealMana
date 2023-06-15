@@ -25,4 +25,6 @@ XAMPP/PHP
 
 テーブル
 
+→.evnをadd出来なかったため.evn.exampleでaddしています。
+
 →phpMyAdminにhealmana.sqlをインポートしていただければお使い頂けます。
