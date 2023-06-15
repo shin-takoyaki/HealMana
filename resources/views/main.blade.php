@@ -182,7 +182,7 @@ echo '<script>
         </li>
         @if (session('login_flag'))
         <li class="nav-item">
-          <a href="/profile.php" class="nav-link">プロフィール</a>
+          <a href="{{ route('profile') }}" class="nav-link">プロフィール</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ route('logout') }}">ログアウト</a>

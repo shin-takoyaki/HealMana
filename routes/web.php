@@ -21,7 +21,7 @@ Route::get('/login/count', 'UserController@login_count')->name('login.count');
 Route::get('/logout', 'UserController@logout')->name('logout');
 Route::post('/main.php', 'UserController@access')->name('access');
 Route::post('/signup_register.php', 'UserController@signup_register');
-Route::get('/profile.php', 'UserController@profile');
+Route::get('/profile.php', 'UserController@profile')->name('profile');
 Route::get('/profile_edit.php', 'UserController@profile_edit')->name('profile.edit');
 Route::post('/profile_update', 'UserController@profile_update')->name('profile.update');
 Route::get('/profile_other/{username}', 'UserController@profile_other')->name('profile.other');
