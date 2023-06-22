@@ -222,6 +222,8 @@ echo '<script>
         <div class="post-header">
           <div class="user-name">
             <h2>
+              var_dump("hellow");
+              exit;
               @if (session('login_flag'))
               @if ($content->user && $content->user->avatar_image != NULL)
               <img src="{{ asset('storage/' . $content->user->avatar_image) }}" alt="プロフィール画像" class="img-fluid" style="width: 60px; height: 60px; object-fit: cover; border-radius: 50%;">
