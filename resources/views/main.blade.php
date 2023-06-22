@@ -207,9 +207,6 @@ echo '<script>
     </div>
     @endif
 
-    @php var_dump("hellow");
-    exit; @endphp
-
     <!-- コンテンツ -->
     <div class="news-feed">
       @php
@@ -221,6 +218,7 @@ echo '<script>
       $slicedContents = $reversedContents->slice($startIndex, $perPage);
       @endphp
       @foreach ($slicedContents as $content)
+      
       <div class="post">
         <div class="post-header">
           <div class="user-name">
