@@ -1,6 +1,3 @@
-# ヘルマネ
-PHP自作
-
 # 概要
 健康管理サイトを作成しました。
 
@@ -25,6 +22,6 @@ XAMPP/PHP
 
 テーブル
 
-→.evnをadd出来なかったため.evn.exampleでaddしています。
+→.evn.exampleをコピーしてください。
 
 →phpMyAdminにhealmana.sqlをインポートしていただければお使い頂けます。
